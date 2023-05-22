@@ -144,7 +144,8 @@ const config = {
     "db"
   ],
   "activeProvider": "sqlite",
-  "dataProxy": false
+  "dataProxy": false,
+  "postinstall": false
 }
 
 const fs = require('fs')
